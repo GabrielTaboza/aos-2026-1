@@ -36,7 +36,7 @@ const citacoes = [
 ];
 
 app.get('/', (req, res) => {
-res.send("API funcionando");
+res.send("Projeto funcionando. Tente colocar (/Random), (/dado) e (/citacoes) no final  do link para verificar as funcionalidades! ");
 });
 
 app.get('/random', (req, res) => {
